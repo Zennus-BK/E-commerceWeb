@@ -1,0 +1,138 @@
+.film-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .card-banner {
+        position: relative;
+        border-radius: 6px;
+        margin: 0;
+        margin-bottom: 20px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .title-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 10px;
+        .card-title {
+            color: white;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    .card-meta {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        .badge-outline {
+            color: yellow;
+            border: 1px solid white;
+            padding: 3px;
+            border-color: white;
+        }
+        .duration {
+            flex-grow: 6;
+            text-align: right;
+        }
+        .rating {
+            color: white;
+            font-size: 14px;
+            font-weight: 500px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    time {
+        color: yellow;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.admin-action {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-btn {
+    color: white;
+    background: black;
+    font-size: 11px;
+    font-weight: 500;
+    border: 2px solid rgb(46 48 62);
+    padding: 12px 26px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.film-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding-left: 106px;
+    padding-right: 106px;
+}
+
+.body-container {
+    background: url(../assets/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-wrapper {
+    display: flex;
+    padding-left: 106px;
+    padding-right: 106px;
+    justify-content: space-between;
+    align-items: center;
+    .filter-list {
+        display: flex;
+        gap: 15px;
+    }
+    .title-wrapper {
+        p {
+            color: yellow;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        h2 {
+            color: white;
+            font-size: 36px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    .filter-btn {
+        color: white;
+        background: black;
+        font-size: 11px;
+        font-weight: 500;
+        border: 2px solid rgb(46 48 62);
+        padding: 12px 26px;
+        border-radius: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+.logout {
+    color: black;
+    background: white;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid rgb(46 48 62);
+    padding: 12px 26px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+}

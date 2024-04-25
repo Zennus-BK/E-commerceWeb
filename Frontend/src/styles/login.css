@@ -1,0 +1,46 @@
+.login-container {
+    justify-content: center;
+    display: grid;
+    gap: 10px;
+    width: auto;
+    padding-top: 50px;
+
+    .login-header {
+        text-transform: uppercase;
+        font-size: 30px;
+        display: flex;
+        text-align: center;
+
+        * {
+            padding: 30px;
+            color: yellow;
+            text-decoration: none;
+            border: 2px solid yellow;
+        }
+    }
+
+    .login-body {
+        display: grid;
+        gap: 20px;
+
+        input {
+            font-size: 20px;
+            border-radius: 4px;
+        }
+
+        button {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            border-radius: 4px;
+        }
+    }
+}
+
+.login-cover {
+    height: 100vh;
+    background: url(../assets/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}

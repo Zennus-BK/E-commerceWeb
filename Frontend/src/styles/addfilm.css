@@ -1,0 +1,33 @@
+.addFlim-container {
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+    width: auto;
+    font-size: 16px;
+    color: yellow;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    label {
+        padding-right: 200px;
+    }
+    input {
+        height: 20px
+    }
+    .action {
+        display: flex;
+        justify-content: space-between;
+        button {
+            padding: 7px;
+            border: 5px solid yellow;
+            border-radius: 4px;
+        }
+    }
+}
+
+.addFilm-cover {
+    height: 100vh;
+    background: url(../assets/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}

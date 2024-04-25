@@ -1,0 +1,37 @@
+.header-container {
+    display: flex;
+    background-color: hsl(60, 32%, 77%);
+    text-align: left;
+    padding-right: 30px;
+    align-items: center;
+    gap: 30px;
+    .logo {
+        width: 130px;
+        height: 130px;
+    }
+    .navbar-menu {
+        flex-grow: 6;
+        display: flex;
+        gap: 30px;
+        .navbar-link {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+    .search-box {
+        display: flex;
+        gap: 5px;
+        .input-search {
+            flex-grow: 2;
+            height: 30px;
+            border-radius: 5px;
+            border-width: 2px;
+        }
+    }
+    
+}
+
